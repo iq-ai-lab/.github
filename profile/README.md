@@ -6,6 +6,10 @@
 
 <br/>
 
+[![IQ AI Lab](https://img.shields.io/badge/IQ_AI_Lab-iq--ai--lab.github.io-ff4d4d?style=for-the-badge&logo=gitbook&logoColor=white)](https://iq-ai-lab.github.io)
+
+<br/>
+
 > *"Use → Understand → Prove → Implement → Repeat"*
 
 표면적인 사용법이 아닌,  
