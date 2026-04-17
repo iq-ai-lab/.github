@@ -23,27 +23,22 @@
 
 ```mermaid
 graph TD
-    M0["🧮 Layer 0\nMathematics"]
-    M1["📐 Layer 1\nML Theory"]
-    M2["🧠 Layer 2\nNeural Networks"]
-    M3["🏗️ Layer 3\nArchitectures"]
-    M4A["🤖 Layer 4\nReinforcement Learning"]
-    M4B["🗣️ Layer 4\nLLM"]
-    M4C["👁️ Layer 4\nComputer Vision"]
-    M4D["📝 Layer 4\nNLP"]
-    M5["⚙️ Layer 5\nSystems"]
+    M0["🧮 Layer 0<br/>Mathematics"]
+    M1["📐 Layer 1<br/>ML Theory"]
+    M2["🧠 Layer 2<br/>Neural Networks"]
+    M3["🏗️ Layer 3<br/>Architectures"]
+    M4A["🤖 4-A<br/>RL"]
+    M4B["🗣️ 4-B<br/>LLM"]
+    M4C["👁️ 4-C<br/>CV & 3D"]
+    M4D["📝 4-D<br/>NLP"]
+    M4E["🔊 4-E<br/>Audio"]
+    M5["⚙️ Layer 5<br/>Systems"]
+    M6["🧭 Layer 6<br/>Frontier LLM"]
 
-    M0 --> M1
-    M1 --> M2
-    M2 --> M3
-    M3 --> M4A
-    M3 --> M4B
-    M3 --> M4C
-    M3 --> M4D
-    M4A --> M5
-    M4B --> M5
-    M4C --> M5
-    M4D --> M5
+    M0 --> M1 --> M2 --> M3
+    M3 --> M4A & M4B & M4C & M4D & M4E
+    M4A & M4B & M4C & M4D & M4E --> M5
+    M5 --> M6
 
     style M0 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
     style M1 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
@@ -53,7 +48,9 @@ graph TD
     style M4B fill:#fce4ec,stroke:#c62828,stroke-width:2px
     style M4C fill:#fce4ec,stroke:#c62828,stroke-width:2px
     style M4D fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    style M4E fill:#fce4ec,stroke:#c62828,stroke-width:2px
     style M5 fill:#fff8e1,stroke:#fbc02d,stroke-width:2px
+    style M6 fill:#ede7f6,stroke:#4527a0,stroke-width:2px
 ```
 
 ---
@@ -148,15 +145,16 @@ graph TD
 
 <br/>
 
-### 👁️ Layer 4-C — Computer Vision
+### 👁️ Layer 4-C — Computer Vision & 3D
 
-> 이미지의 수학적 구조 탐구
+> 이미지·공간의 수학적 구조 탐구
 
 | 📌 Title | 📝 Core Topics | 🔗 Link |
 |:---------|:--------------|:---------|
 | **Vision Transformer Deep Dive** | ViT 패치 임베딩 수식, DINO 자기지도, MAE 정보이론적 해석 | [📂 Repository](https://github.com/iq-ai-lab/vision-transformer-deep-dive) |
 | **Object Detection Deep Dive** | YOLO 손실함수 유도, DETR 헝가리안 매칭, Anchor-Free 방법론 | [📂 Repository](https://github.com/iq-ai-lab/object-detection-deep-dive) |
 | **Diffusion Model Deep Dive** | DDPM Forward/Reverse 완전 유도, Score Matching, DDIM ODE 해석 | [📂 Repository](https://github.com/iq-ai-lab/diffusion-model-deep-dive) |
+| **3D & Neural Rendering Deep Dive** | Volume Rendering 방정식, NeRF 유도, 3D Gaussian Splatting EWA, SDS Loss | [📂 Repository](https://github.com/iq-ai-lab/3d-neural-rendering-deep-dive) |
 
 <br/>
 
@@ -171,6 +169,16 @@ graph TD
 
 <br/>
 
+### 🔊 Layer 4-E — Audio & Speech
+
+> 음성 신호의 수학 — Signal Processing과 ML의 교차점
+
+| 📌 Title | 📝 Core Topics | 🔗 Link |
+|:---------|:--------------|:---------|
+| **Audio & Speech Deep Dive** | STFT/Mel 유도, CTC Loss Forward-Backward, Whisper, RVQ 신경 코덱, AudioLM | [📂 Repository](https://github.com/iq-ai-lab/audio-speech-deep-dive) |
+
+<br/>
+
 ### ⚙️ Layer 5 — Systems
 
 > 수학을 실제 시스템으로
@@ -182,7 +190,19 @@ graph TD
 | **Efficient ML Deep Dive** | Pruning/Quantization/Distillation 수학, FlashAttention, vLLM | [📂 Repository](https://github.com/iq-ai-lab/efficient-ml-deep-dive) |
 | **MLOps Deep Dive** | 피처 스토어, 모델 모니터링, 데이터 드리프트, A/B 테스트 이론 | [📂 Repository](https://github.com/iq-ai-lab/mlops-deep-dive) |
 
-<sub>💡 Layer 0 → Layer 5 순서로 선행 지식이 쌓입니다. 각 레포는 독립적으로도 학습 가능합니다.</sub>
+<br/>
+
+### 🧭 Layer 6 — Frontier LLM
+
+> LLM이 어떻게 생각하고·추론하고·지식을 가져오는가
+
+| 📌 Title | 📝 Core Topics | 🔗 Link |
+|:---------|:--------------|:---------|
+| **Mechanistic Interpretability Deep Dive** | Induction Heads, Superposition, Sparse Autoencoder, Circuit Discovery, Feature Steering | [📂 Repository](https://github.com/iq-ai-lab/mechanistic-interpretability-deep-dive) |
+| **LLM Reasoning & Agents Deep Dive** | Test-time Compute Scaling, PRM, GRPO, Tree of Thoughts, ReAct, MCTS for LLMs | [📂 Repository](https://github.com/iq-ai-lab/llm-reasoning-agents-deep-dive) |
+| **Retrieval & RAG Deep Dive** | Dense Retrieval, ColBERT Late Interaction, HNSW, IVF-PQ, GraphRAG | [📂 Repository](https://github.com/iq-ai-lab/retrieval-rag-deep-dive) |
+
+<sub>💡 Layer 0 → Layer 6 순서로 선행 지식이 쌓입니다. 각 레포는 독립적으로도 학습 가능합니다.</sub>
 
 ---
 
