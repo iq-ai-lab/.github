@@ -1,4 +1,7 @@
-# 🧠 IQ AI Lab
+<h1 align="center">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%23a78bfa" width="32" align="center"/>
+  IQ AI Lab
+</h1>
 
 <div align="center">
 
