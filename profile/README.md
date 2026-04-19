@@ -1,19 +1,23 @@
-# 🔍 IQ AI Lab
+# 🧠 IQ AI Lab
 
 <div align="center">
 
-**수학적 증명으로 AI의 본질을 탐구하는 딥다이브 연구소**
+**수학적 증명으로 AI의 본질을 파고드는 딥다이브 연구소**
 
 <br/>
 
-[![IQ AI Lab](https://img.shields.io/badge/IQ_AI_Lab-iq--ai--lab.github.io-ff4d4d?style=for-the-badge&logo=gitbook&logoColor=white)](https://iq-ai-lab.github.io)
+[![IQ AI Lab](https://img.shields.io/badge/IQ_AI_Lab-iq--ai--lab.github.io-a78bfa?style=for-the-badge&logo=openai&logoColor=white)](https://iq-ai-lab.github.io)
 
 <br/>
 
-> *"Use → Understand → Prove → Implement → Repeat"*
+> *"Prove, don't memorize — the math behind AI."*
 
 표면적인 사용법이 아닌,  
 **왜 이 수식인가 — 가정부터 증명까지** 를 집요하게 파고듭니다.
+
+<br/>
+
+[![IQ Lab Blog](https://img.shields.io/badge/📝_Read_on_IQ_Lab_Blog-iq--proof.github.io-00d9ff?style=for-the-badge&logo=astro&logoColor=white)](https://iq-proof.github.io)
 
 </div>
 
@@ -243,20 +247,23 @@ graph LR
 
 ### Why Math-First Deep Dive?
 
-- ✏️ **증명 가능한 이해** - 블랙박스 없이, 가정부터 결론까지 직접 유도합니다
-- 🔍 **한계 식별** - 수식의 가정이 무너지는 조건을 정확히 압니다
-- 🔗 **개념 연결** - 서로 다른 알고리즘이 같은 수학적 뿌리에서 나옴을 발견합니다
-- 💻 **구현 신뢰** - 수식을 코드로 직접 옮기며 이론과 실제를 연결합니다
+- ✏️ **증명 가능한 이해** - 블랙박스 없이, 가정부터 결론까지 직접 유도
+- 🔍 **한계 식별** - 수식의 가정이 무너지는 조건을 정확히 파악
+- 🔗 **개념 연결** - 서로 다른 알고리즘이 같은 수학적 뿌리에서 나옴을 발견
+- 💻 **구현 신뢰** - 수식을 코드로 직접 옮기며 이론과 실제를 연결
 
----
+<br/>
 
-## 🔗 Related
+## 🔗 About
 
 <div align="center">
 
-[![IQ Dev Lab](https://img.shields.io/badge/IQ_Dev_Lab-iq--dev--lab.github.io-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iq-dev-lab)
+*수학적 증명으로 AI의 본질을 파고드는 연구자의 딥다이브 기록*
 
-*AI 시스템 구현의 기반이 되는 개발 기술은 IQ Dev Lab에서 탐구합니다*
+<br/>
+
+정제된 결과물은 [**IQ Lab Blog**](https://iq-proof.github.io)에 발행됩니다.  
+정리(Theorem)와 증명(Proof)으로 구성된 딥다이브 글을 만날 수 있어요.
 
 <br/>
 
