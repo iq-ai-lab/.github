@@ -64,154 +64,234 @@ graph TD
 
 ## 📚 Projects & Studies
 
-### 🧮 Layer 0 — Mathematics
+<br/>
+
+<details>
+<summary>&nbsp;🧮 &nbsp;<b>Layer 0 — Mathematics</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/10_repos-e8f4f8?style=flat-square&color=1565c0"/></summary>
+
+<br/>
 
 > AI의 모든 수식이 여기서 출발합니다
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **Linear Algebra Deep Dive** | 벡터공간, 고유값 분해, SVD, PCA 증명, 텐서 | [📂 Repository](https://github.com/iq-ai-lab/linear-algebra-deep-dive) |
-| **Probability Theory Deep Dive** | 측도 기반 확률론, 조건부 기댓값, 수렴 4종, 마팅게일 | [📂 Repository](https://github.com/iq-ai-lab/probability-theory-deep-dive) |
-| **Mathematical Statistics Deep Dive** | MLE/MAP 유도, 가설검정, 점근이론, 베이즈 추론 | [📂 Repository](https://github.com/iq-ai-lab/mathematical-statistics-deep-dive) |
-| **Calculus & Optimization Deep Dive** | 편미분, 야코비안, 헤시안, 라그랑주 승수법 | [📂 Repository](https://github.com/iq-ai-lab/calculus-optimization-deep-dive) |
-| **Convex Optimization Deep Dive** | 볼록 집합/함수, KKT 조건, 쌍대이론, Proximal 방법 | [📂 Repository](https://github.com/iq-ai-lab/convex-optimization-deep-dive) |
-| **Information Theory Deep Dive** | Shannon Entropy, KL-Divergence, 상호정보량, MDL | [📂 Repository](https://github.com/iq-ai-lab/information-theory-deep-dive) |
-| **Stochastic Processes Deep Dive** | 마르코프 체인, 브라운 운동, 마팅게일, MCMC | [📂 Repository](https://github.com/iq-ai-lab/stochastic-processes-deep-dive) |
-| **Stochastic Differential Equations Deep Dive** | 이토 적분, 이토 공식, SDE, Fokker-Planck 방정식 | [📂 Repository](https://github.com/iq-ai-lab/sde-deep-dive) |
-| **Functional Analysis Deep Dive** | 힐베르트 공간, 스펙트럴 이론, RKHS | [📂 Repository](https://github.com/iq-ai-lab/functional-analysis-deep-dive) |
-| **Information Geometry Deep Dive** | 통계다양체, Fisher 정보 행렬, Natural Gradient | [📂 Repository](https://github.com/iq-ai-lab/information-geometry-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**Linear Algebra Deep Dive**](https://github.com/iq-ai-lab/linear-algebra-deep-dive) | 벡터공간, 고유값 분해, SVD, PCA 증명, 텐서 |
+| 2 | [**Probability Theory Deep Dive**](https://github.com/iq-ai-lab/probability-theory-deep-dive) | 측도 기반 확률론, 조건부 기댓값, 수렴 4종, 마팅게일 |
+| 3 | [**Mathematical Statistics Deep Dive**](https://github.com/iq-ai-lab/mathematical-statistics-deep-dive) | MLE/MAP 유도, 가설검정, 점근이론, 베이즈 추론 |
+| 4 | [**Calculus & Optimization Deep Dive**](https://github.com/iq-ai-lab/calculus-optimization-deep-dive) | 편미분, 야코비안, 헤시안, 라그랑주 승수법 |
+| 5 | [**Convex Optimization Deep Dive**](https://github.com/iq-ai-lab/convex-optimization-deep-dive) | 볼록 집합/함수, KKT 조건, 쌍대이론, Proximal 방법 |
+| 6 | [**Information Theory Deep Dive**](https://github.com/iq-ai-lab/information-theory-deep-dive) | Shannon Entropy, KL-Divergence, 상호정보량, MDL |
+| 7 | [**Stochastic Processes Deep Dive**](https://github.com/iq-ai-lab/stochastic-processes-deep-dive) | 마르코프 체인, 브라운 운동, 마팅게일, MCMC |
+| 8 | [**Stochastic Differential Equations Deep Dive**](https://github.com/iq-ai-lab/sde-deep-dive) | 이토 적분, 이토 공식, SDE, Fokker-Planck 방정식 |
+| 9 | [**Functional Analysis Deep Dive**](https://github.com/iq-ai-lab/functional-analysis-deep-dive) | 힐베르트 공간, 스펙트럴 이론, RKHS |
+| 10 | [**Information Geometry Deep Dive**](https://github.com/iq-ai-lab/information-geometry-deep-dive) | 통계다양체, Fisher 정보 행렬, Natural Gradient |
 
 <br/>
 
-### 📐 Layer 1 — ML Theory
+</details>
+
+---
+
+<details>
+<summary>&nbsp;📐 &nbsp;<b>Layer 1 — ML Theory</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/5_repos-e8f4f8?style=flat-square&color=7b1fa2"/></summary>
+
+<br/>
 
 > 고전 ML의 수학적 토대와 일반화 이론
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **ML Fundamentals Deep Dive** | 선형회귀(Normal Equation 유도), 결정트리, 앙상블 수렴 증명 | [📂 Repository](https://github.com/iq-ai-lab/ml-fundamentals-deep-dive) |
-| **Statistical Learning Theory Deep Dive** | PAC Learning, VC 차원, Rademacher 복잡도, 균등수렴 | [📂 Repository](https://github.com/iq-ai-lab/statistical-learning-theory-deep-dive) |
-| **Kernel Methods Deep Dive** | Mercer 정리, RKHS, SVM 쌍대 유도, 가우시안 프로세스 | [📂 Repository](https://github.com/iq-ai-lab/kernel-methods-deep-dive) |
-| **Bayesian ML Deep Dive** | 베이지안 추론, 변분 베이즈, ELBO 유도, MCMC | [📂 Repository](https://github.com/iq-ai-lab/bayesian-ml-deep-dive) |
-| **Graphical Models Deep Dive** | 베이지안 네트워크, 마르코프 랜덤 필드, 믿음 전파 | [📂 Repository](https://github.com/iq-ai-lab/graphical-models-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**ML Fundamentals Deep Dive**](https://github.com/iq-ai-lab/ml-fundamentals-deep-dive) | 선형회귀(Normal Equation 유도), 결정트리, 앙상블 수렴 증명 |
+| 2 | [**Statistical Learning Theory Deep Dive**](https://github.com/iq-ai-lab/statistical-learning-theory-deep-dive) | PAC Learning, VC 차원, Rademacher 복잡도, 균등수렴 |
+| 3 | [**Kernel Methods Deep Dive**](https://github.com/iq-ai-lab/kernel-methods-deep-dive) | Mercer 정리, RKHS, SVM 쌍대 유도, 가우시안 프로세스 |
+| 4 | [**Bayesian ML Deep Dive**](https://github.com/iq-ai-lab/bayesian-ml-deep-dive) | 베이지안 추론, 변분 베이즈, ELBO 유도, MCMC |
+| 5 | [**Graphical Models Deep Dive**](https://github.com/iq-ai-lab/graphical-models-deep-dive) | 베이지안 네트워크, 마르코프 랜덤 필드, 믿음 전파 |
 
 <br/>
 
-### 🧠 Layer 2 — Neural Network Theory
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🧠 &nbsp;<b>Layer 2 — Neural Network Theory</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=ef6c00"/></summary>
+
+<br/>
 
 > 신경망의 수학적 본질 — 역전파부터 일반화까지
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **Neural Network Theory Deep Dive** | 범용 근사 정리 증명, 역전파 완전 유도, Xavier/He 초기화 유도 | [📂 Repository](https://github.com/iq-ai-lab/neural-network-theory-deep-dive) |
-| **Optimization Theory Deep Dive** | SGD 수렴 분석, Adam 수렴 반례, Loss Landscape, LR Scheduler | [📂 Repository](https://github.com/iq-ai-lab/optimization-theory-deep-dive) |
-| **Generalization Theory Deep Dive** | Double Descent, Neural Tangent Kernel, Grokking, Lottery Ticket | [📂 Repository](https://github.com/iq-ai-lab/generalization-theory-deep-dive) |
-| **Regularization Theory Deep Dive** | L1/L2 베이즈 해석, Dropout 앙상블 이론, BatchNorm 증명 | [📂 Repository](https://github.com/iq-ai-lab/regularization-theory-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**Neural Network Theory Deep Dive**](https://github.com/iq-ai-lab/neural-network-theory-deep-dive) | 범용 근사 정리 증명, 역전파 완전 유도, Xavier/He 초기화 유도 |
+| 2 | [**Optimization Theory Deep Dive**](https://github.com/iq-ai-lab/optimization-theory-deep-dive) | SGD 수렴 분석, Adam 수렴 반례, Loss Landscape, LR Scheduler |
+| 3 | [**Generalization Theory Deep Dive**](https://github.com/iq-ai-lab/generalization-theory-deep-dive) | Double Descent, Neural Tangent Kernel, Grokking, Lottery Ticket |
+| 4 | [**Regularization Theory Deep Dive**](https://github.com/iq-ai-lab/regularization-theory-deep-dive) | L1/L2 베이즈 해석, Dropout 앙상블 이론, BatchNorm 증명 |
 
 <br/>
 
-### 🏗️ Layer 3 — Architectures
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🏗️ &nbsp;<b>Layer 3 — Architectures</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/5_repos-e8f4f8?style=flat-square&color=2e7d32"/></summary>
+
+<br/>
 
 > 핵심 아키텍처 수식 완전 분해
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **CNN Deep Dive** | Convolution 등변성, Receptive Field, ResNet 항등 근사 이론 | [📂 Repository](https://github.com/iq-ai-lab/cnn-deep-dive) |
-| **RNN & LSTM Deep Dive** | BPTT 완전 유도, Vanishing Gradient 스펙트럴 분석, LSTM 게이트 수식 | [📂 Repository](https://github.com/iq-ai-lab/rnn-lstm-deep-dive) |
-| **Transformer Deep Dive** | Attention 수식 완전 분해, √d 근거, Positional Encoding, Linear Attention | [📂 Repository](https://github.com/iq-ai-lab/transformer-deep-dive) |
-| **Graph Neural Network Deep Dive** | 그래프 라플라시안 유도, Message Passing, 표현력 한계(WL 검사) | [📂 Repository](https://github.com/iq-ai-lab/gnn-deep-dive) |
-| **Generative Model Deep Dive** | GAN minimax 수렴, VAE ELBO 완전 유도, Normalizing Flow | [📂 Repository](https://github.com/iq-ai-lab/generative-model-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**CNN Deep Dive**](https://github.com/iq-ai-lab/cnn-deep-dive) | Convolution 등변성, Receptive Field, ResNet 항등 근사 이론 |
+| 2 | [**RNN & LSTM Deep Dive**](https://github.com/iq-ai-lab/rnn-lstm-deep-dive) | BPTT 완전 유도, Vanishing Gradient 스펙트럴 분석, LSTM 게이트 수식 |
+| 3 | [**Transformer Deep Dive**](https://github.com/iq-ai-lab/transformer-deep-dive) | Attention 수식 완전 분해, √d 근거, Positional Encoding, Linear Attention |
+| 4 | [**Graph Neural Network Deep Dive**](https://github.com/iq-ai-lab/gnn-deep-dive) | 그래프 라플라시안 유도, Message Passing, 표현력 한계(WL 검사) |
+| 5 | [**Generative Model Deep Dive**](https://github.com/iq-ai-lab/generative-model-deep-dive) | GAN minimax 수렴, VAE ELBO 완전 유도, Normalizing Flow |
 
 <br/>
 
-### 🤖 Layer 4-A — Reinforcement Learning
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🤖 &nbsp;<b>Layer 4-A — Reinforcement Learning</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/6_repos-e8f4f8?style=flat-square&color=c62828"/></summary>
+
+<br/>
 
 > 벨만 방정식부터 PPO 단조 개선 보장까지
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **RL Foundations Deep Dive** | MDP 공리적 정의, 벨만 방정식 완전 유도, 동적 프로그래밍 수렴 증명 | [📂 Repository](https://github.com/iq-ai-lab/rl-foundations-deep-dive) |
-| **Model-Free RL Deep Dive** | Monte Carlo 수렴 조건, TD Learning, Q-Learning 수렴 증명(Robbins-Monro) | [📂 Repository](https://github.com/iq-ai-lab/model-free-rl-deep-dive) |
-| **Deep RL Deep Dive** | DQN 경험 재생 이론, Double DQN 과대추정 편향 증명, Rainbow | [📂 Repository](https://github.com/iq-ai-lab/deep-rl-deep-dive) |
-| **Policy Gradient Deep Dive** | REINFORCE 완전 유도(로그 미분 트릭), 정책 기울기 정리 증명, GAE λ-수익 유도 | [📂 Repository](https://github.com/iq-ai-lab/policy-gradient-deep-dive) |
-| **Advanced RL Deep Dive** | TRPO 단조 개선 이론, PPO 클리핑 근거, SAC 엔트로피 최대화, TD3 | [📂 Repository](https://github.com/iq-ai-lab/advanced-rl-deep-dive) |
-| **RL Theory Deep Dive** | UCB 후회 경계 증명, PAC-MDP, 탐험-활용 트레이드오프, 샘플 복잡도 | [📂 Repository](https://github.com/iq-ai-lab/rl-theory-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**RL Foundations Deep Dive**](https://github.com/iq-ai-lab/rl-foundations-deep-dive) | MDP 공리적 정의, 벨만 방정식 완전 유도, 동적 프로그래밍 수렴 증명 |
+| 2 | [**Model-Free RL Deep Dive**](https://github.com/iq-ai-lab/model-free-rl-deep-dive) | Monte Carlo 수렴 조건, TD Learning, Q-Learning 수렴 증명(Robbins-Monro) |
+| 3 | [**Deep RL Deep Dive**](https://github.com/iq-ai-lab/deep-rl-deep-dive) | DQN 경험 재생 이론, Double DQN 과대추정 편향 증명, Rainbow |
+| 4 | [**Policy Gradient Deep Dive**](https://github.com/iq-ai-lab/policy-gradient-deep-dive) | REINFORCE 완전 유도(로그 미분 트릭), 정책 기울기 정리 증명, GAE λ-수익 유도 |
+| 5 | [**Advanced RL Deep Dive**](https://github.com/iq-ai-lab/advanced-rl-deep-dive) | TRPO 단조 개선 이론, PPO 클리핑 근거, SAC 엔트로피 최대화, TD3 |
+| 6 | [**RL Theory Deep Dive**](https://github.com/iq-ai-lab/rl-theory-deep-dive) | UCB 후회 경계 증명, PAC-MDP, 탐험-활용 트레이드오프, 샘플 복잡도 |
 
 <br/>
 
-### 🗣️ Layer 4-B — Large Language Models
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🗣️ &nbsp;<b>Layer 4-B — Large Language Models</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=d81b60"/></summary>
+
+<br/>
 
 > Scaling Law부터 Alignment까지
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **LLM Pretraining Deep Dive** | Scaling Law(Chinchilla 수식), 학습 안정성, 데이터 혼합 이론 | [📂 Repository](https://github.com/iq-ai-lab/llm-pretraining-deep-dive) |
-| **LLM Alignment Deep Dive** | RLHF(보상 모델링), DPO(Bradley-Terry 유도), Constitutional AI | [📂 Repository](https://github.com/iq-ai-lab/llm-alignment-deep-dive) |
-| **LLM Efficiency Deep Dive** | LoRA(저랭크 분해 수학), QLoRA 양자화 오차, MoE 수식, Speculative Decoding | [📂 Repository](https://github.com/iq-ai-lab/llm-efficiency-deep-dive) |
-| **LLM Inference Deep Dive** | KV Cache, PagedAttention 메모리 분석, Continuous Batching, vLLM | [📂 Repository](https://github.com/iq-ai-lab/llm-inference-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**LLM Pretraining Deep Dive**](https://github.com/iq-ai-lab/llm-pretraining-deep-dive) | Scaling Law(Chinchilla 수식), 학습 안정성, 데이터 혼합 이론 |
+| 2 | [**LLM Alignment Deep Dive**](https://github.com/iq-ai-lab/llm-alignment-deep-dive) | RLHF(보상 모델링), DPO(Bradley-Terry 유도), Constitutional AI |
+| 3 | [**LLM Efficiency Deep Dive**](https://github.com/iq-ai-lab/llm-efficiency-deep-dive) | LoRA(저랭크 분해 수학), QLoRA 양자화 오차, MoE 수식, Speculative Decoding |
+| 4 | [**LLM Inference Deep Dive**](https://github.com/iq-ai-lab/llm-inference-deep-dive) | KV Cache, PagedAttention 메모리 분석, Continuous Batching, vLLM |
 
 <br/>
 
-### 👁️ Layer 4-C — Computer Vision & 3D
+</details>
+
+---
+
+<details>
+<summary>&nbsp;👁️ &nbsp;<b>Layer 4-C — Computer Vision & 3D</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=ad1457"/></summary>
+
+<br/>
 
 > 이미지·공간의 수학적 구조 탐구
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **Vision Transformer Deep Dive** | ViT 패치 임베딩 수식, DINO 자기지도, MAE 정보이론적 해석 | [📂 Repository](https://github.com/iq-ai-lab/vision-transformer-deep-dive) |
-| **Object Detection Deep Dive** | YOLO 손실함수 유도, DETR 헝가리안 매칭, Anchor-Free 방법론 | [📂 Repository](https://github.com/iq-ai-lab/object-detection-deep-dive) |
-| **Diffusion Model Deep Dive** | DDPM Forward/Reverse 완전 유도, Score Matching, DDIM ODE 해석 | [📂 Repository](https://github.com/iq-ai-lab/diffusion-model-deep-dive) |
-| **3D & Neural Rendering Deep Dive** | Volume Rendering 방정식, NeRF 유도, 3D Gaussian Splatting EWA, SDS Loss | [📂 Repository](https://github.com/iq-ai-lab/3d-neural-rendering-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**Vision Transformer Deep Dive**](https://github.com/iq-ai-lab/vision-transformer-deep-dive) | ViT 패치 임베딩 수식, DINO 자기지도, MAE 정보이론적 해석 |
+| 2 | [**Object Detection Deep Dive**](https://github.com/iq-ai-lab/object-detection-deep-dive) | YOLO 손실함수 유도, DETR 헝가리안 매칭, Anchor-Free 방법론 |
+| 3 | [**Diffusion Model Deep Dive**](https://github.com/iq-ai-lab/diffusion-model-deep-dive) | DDPM Forward/Reverse 완전 유도, Score Matching, DDIM ODE 해석 |
+| 4 | [**3D & Neural Rendering Deep Dive**](https://github.com/iq-ai-lab/3d-neural-rendering-deep-dive) | Volume Rendering 방정식, NeRF 유도, 3D Gaussian Splatting EWA, SDS Loss |
 
 <br/>
 
-### 📝 Layer 4-D — NLP
+</details>
+
+---
+
+<details>
+<summary>&nbsp;📝 &nbsp;<b>Layer 4-D — NLP</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/2_repos-e8f4f8?style=flat-square&color=880e4f"/></summary>
+
+<br/>
 
 > 언어의 수학적 표현 탐구
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **NLP Foundations Deep Dive** | Word2Vec(Skip-gram 목적함수 유도), GloVe(행렬 분해 해석), BPE | [📂 Repository](https://github.com/iq-ai-lab/nlp-foundations-deep-dive) |
-| **Pretrained LM Deep Dive** | BERT MLM 정보이론, GPT 자기회귀 수식, 전이학습 이론 | [📂 Repository](https://github.com/iq-ai-lab/pretrained-lm-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**NLP Foundations Deep Dive**](https://github.com/iq-ai-lab/nlp-foundations-deep-dive) | Word2Vec(Skip-gram 목적함수 유도), GloVe(행렬 분해 해석), BPE |
+| 2 | [**Pretrained LM Deep Dive**](https://github.com/iq-ai-lab/pretrained-lm-deep-dive) | BERT MLM 정보이론, GPT 자기회귀 수식, 전이학습 이론 |
 
 <br/>
 
-### 🔊 Layer 4-E — Audio & Speech
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🔊 &nbsp;<b>Layer 4-E — Audio & Speech</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/1_repo-e8f4f8?style=flat-square&color=6a1b9a"/></summary>
+
+<br/>
 
 > 음성 신호의 수학 — Signal Processing과 ML의 교차점
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **Audio & Speech Deep Dive** | STFT/Mel 유도, CTC Loss Forward-Backward, Whisper, RVQ 신경 코덱, AudioLM | [📂 Repository](https://github.com/iq-ai-lab/audio-speech-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**Audio & Speech Deep Dive**](https://github.com/iq-ai-lab/audio-speech-deep-dive) | STFT/Mel 유도, CTC Loss Forward-Backward, Whisper, RVQ 신경 코덱, AudioLM |
 
 <br/>
 
-### ⚙️ Layer 5 — Systems
+</details>
+
+---
+
+<details>
+<summary>&nbsp;⚙️ &nbsp;<b>Layer 5 — Systems</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=f9a825"/></summary>
+
+<br/>
 
 > 수학을 실제 시스템으로
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **PyTorch Internals Deep Dive** | Autograd(야코비안 벡터곱), CUDA 커널, 혼합 정밀도 수치 분석 | [📂 Repository](https://github.com/iq-ai-lab/pytorch-internals-deep-dive) |
-| **Distributed Training Deep Dive** | Data/Model/Pipeline Parallelism, DDP AllReduce, ZeRO 메모리 분석 | [📂 Repository](https://github.com/iq-ai-lab/distributed-training-deep-dive) |
-| **Efficient ML Deep Dive** | Pruning/Quantization/Distillation 수학, FlashAttention, vLLM | [📂 Repository](https://github.com/iq-ai-lab/efficient-ml-deep-dive) |
-| **MLOps Deep Dive** | 피처 스토어, 모델 모니터링, 데이터 드리프트, A/B 테스트 이론 | [📂 Repository](https://github.com/iq-ai-lab/mlops-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**PyTorch Internals Deep Dive**](https://github.com/iq-ai-lab/pytorch-internals-deep-dive) | Autograd(야코비안 벡터곱), CUDA 커널, 혼합 정밀도 수치 분석 |
+| 2 | [**Distributed Training Deep Dive**](https://github.com/iq-ai-lab/distributed-training-deep-dive) | Data/Model/Pipeline Parallelism, DDP AllReduce, ZeRO 메모리 분석 |
+| 3 | [**Efficient ML Deep Dive**](https://github.com/iq-ai-lab/efficient-ml-deep-dive) | Pruning/Quantization/Distillation 수학, FlashAttention, vLLM |
+| 4 | [**Experimental Statistics & MLOps Deep Dive**](https://github.com/iq-ai-lab/experimental-statistics-mlops-deep-dive) | A/B Testing(CUPED, Sequential), 인과 추론(IPW, Doubly Robust), Drift Detection(KS, PSI, MMD), 피처 스토어, 모델 모니터링 |
 
 <br/>
 
-### 🧭 Layer 6 — Frontier LLM
+</details>
+
+---
+
+<details>
+<summary>&nbsp;🧭 &nbsp;<b>Layer 6 — Frontier LLM</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/3_repos-e8f4f8?style=flat-square&color=4527a0"/></summary>
+
+<br/>
 
 > LLM이 어떻게 생각하고·추론하고·지식을 가져오는가
 
-| 📌 Title | 📝 Core Topics | 🔗 Link |
-|:---------|:--------------|:---------|
-| **Mechanistic Interpretability Deep Dive** | Induction Heads, Superposition, Sparse Autoencoder, Circuit Discovery, Feature Steering | [📂 Repository](https://github.com/iq-ai-lab/mechanistic-interpretability-deep-dive) |
-| **LLM Reasoning & Agents Deep Dive** | Test-time Compute Scaling, PRM, GRPO, Tree of Thoughts, ReAct, MCTS for LLMs | [📂 Repository](https://github.com/iq-ai-lab/llm-reasoning-agents-deep-dive) |
-| **Retrieval & RAG Deep Dive** | Dense Retrieval, ColBERT Late Interaction, HNSW, IVF-PQ, GraphRAG | [📂 Repository](https://github.com/iq-ai-lab/retrieval-rag-deep-dive) |
+| &nbsp; | 📌 Title | 📝 Key Topics |
+|:--:|:---------|:----------|
+| 1 | [**Mechanistic Interpretability Deep Dive**](https://github.com/iq-ai-lab/mechanistic-interpretability-deep-dive) | Induction Heads, Superposition, Sparse Autoencoder, Circuit Discovery, Feature Steering |
+| 2 | [**LLM Reasoning Deep Dive**](https://github.com/iq-ai-lab/llm-reasoning-deep-dive) | Test-time Compute Scaling, PRM, GRPO, Tree of Thoughts, MCTS for LLMs |
+| 3 | [**Retrieval & RAG Deep Dive**](https://github.com/iq-ai-lab/retrieval-rag-deep-dive) | Dense Retrieval, ColBERT Late Interaction, HNSW, IVF-PQ, GraphRAG |
 
+<br/>
+
+</details>
+
+<br/>
 <sub>💡 Layer 0 → Layer 6 순서로 선행 지식이 쌓입니다. 각 레포는 독립적으로도 학습 가능합니다.</sub>
 
----
+<br/>
 
 ## 🛠️ Study Method
 
@@ -238,7 +318,7 @@ graph LR
 | 💻 **Implement** | 프레임워크 없이 NumPy로 직접 구현·검증 |
 | 📝 **Document** | 증명·직관·한계를 나만의 언어로 체계적 정리 |
 
----
+<br/>
 
 ## 💡 Philosophy
 
