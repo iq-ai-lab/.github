@@ -9,43 +9,67 @@
 
 <br/>
 
-[![IQ AI Lab](https://img.shields.io/badge/IQ_AI_Lab-iq--ai--lab.github.io-a78bfa?style=for-the-badge&logo=openai&logoColor=white)](https://iq-ai-lab.github.io)
+[![IQ AI Lab](https://img.shields.io/badge/IQ_AI_Lab-iq--ai--lab.github.io-a78bfa?style=for-the-badge&logo=gitbook&logoColor=white)](https://iq-ai-lab.github.io)
 
 <br/>
 
-> *"Prove, don't memorize — the math behind AI."*
+> *"Prove, don't memorize."*
 
-표면적인 사용법이 아닌,  
-**왜 이 수식인가 — 가정부터 증명까지** 를 집요하게 파고듭니다.
+**"왜 이 수식이어야 할까?"**
 
-<br/>
+표면적인 사용법이나 공식 암기에서 멈추지 않고, 수식의 가정과 선행 정의에서 출발해 **왜 그 결론이 따라오는지**를 한 줄씩 증명하고 구현으로 확인합니다.
 
-[![IQ Lab Blog](https://img.shields.io/badge/📝_Read_on_IQ_Lab_Blog-iq--proof.github.io-00d9ff?style=for-the-badge&logo=astro&logoColor=white)](https://iq-proof.github.io)
+그래서 모든 글은 같은 흐름으로 끝납니다 —
+**원리**(어떤 가정에서 출발하나) → **경계**(언제 성립하지 않나) → **증명**(어떻게 유도되고 구현으로 확인되나).
 
 </div>
 
 ---
 
-## 🗺️ Learning Roadmap
+## 🏛️ The IQ Knowledge Pentad
+
+IQ의 다섯 연구소는 네 가지 지식 렌즈와 그 앎이 깃드는 마음을 하나의 체계로 연결합니다. 이 연구소는 그중 **Episteme(이론지)**의 축을 맡습니다.
+
+<div align="center">
+
+| | 앎의 형태 | 핵심 질문 | 연구소 |
+|:--:|:----------|:----------|:-------|
+| 📐 | **Episteme** — 증명 가능한 이론지 | *왜 참인가?* | **IQ AI Lab** · "Prove, don't memorize" |
+| 🔧 | **Techne** — 만들어내는 기예지 | *어떻게 동작하는가?* | [**IQ Dev Lab**](https://github.com/iq-dev-lab) · "Beyond the docs" |
+| 🧭 | **Phronesis** — 상황 속에서 판단하는 실천지 | *그래서 무엇을 하는가?* | [**IQ Phronesis Lab**](https://github.com/iq-phronesis-lab) · "Distill, don't collect" |
+| 🌌 | **Sophia** — 제1원리에서 실재를 이해하는 이론적 지혜 | *무엇이 근본이며, 왜 이렇게 존재하는가?* | [**IQ Physis Lab**](https://github.com/iq-physis-lab) · "Derive, don't accept" |
+| 🧠 | **Psyche** — 모든 앎이 깃드는 마음 그 자체 *(덕이 아니라, 덕의 자리)* | *아는 자는 무엇이며, 경험은 어떻게 생기는가?* | [**IQ Psyche Lab**](https://github.com/iq-psyche-lab) · "Explain it, don't explain it away" |
+
+</div>
+
+> 다섯 연구소는 같은 깊이의 탐구를 서로 다른 방식으로 검증합니다 — AI는 **증명**, Dev는 **코드와 측정**, Phronesis는 **반례**, Physis는 **실험**, Psyche는 **실험·현상학·계산 모델**을 사용합니다.
+>
+> **Episteme의 기준** — 정의와 가정을 밝힌 뒤 결론을 직접 증명하고 구현으로 재현할 수 있는가.
+
+---
+
+## 🗺️ Architecture — 7-Layer Stack
+
+이 연구소는 분야를 나열하지 않고 **수학적 선행 관계**로 쌓습니다. Layer 0의 수학에서 출발해 이론·신경망·아키텍처·응용·시스템·최전선으로 올라가며, 각 층의 식이 아래층의 정의와 정리에서 다시 유도됩니다.
 
 ```mermaid
 graph TD
-    M0["🧮 Layer 0<br/>Mathematics"]
-    M1["📐 Layer 1<br/>ML Theory"]
-    M2["🧠 Layer 2<br/>Neural Networks"]
-    M3["🏗️ Layer 3<br/>Architectures"]
+    M6["🧭 Layer 6<br/>Frontier LLM"]
+    M5["⚙️ Layer 5<br/>Systems"]
     M4A["🤖 4-A<br/>RL"]
     M4B["🗣️ 4-B<br/>LLM"]
     M4C["👁️ 4-C<br/>CV & 3D"]
     M4D["📝 4-D<br/>NLP"]
     M4E["🔊 4-E<br/>Audio"]
-    M5["⚙️ Layer 5<br/>Systems"]
-    M6["🧭 Layer 6<br/>Frontier LLM"]
+    M3["🏗️ Layer 3<br/>Architectures"]
+    M2["🧠 Layer 2<br/>Neural Networks"]
+    M1["📐 Layer 1<br/>ML Theory"]
+    M0["🧮 Layer 0<br/>Mathematics"]
 
-    M0 --> M1 --> M2 --> M3
-    M3 --> M4A & M4B & M4C & M4D & M4E
-    M4A & M4B & M4C & M4D & M4E --> M5
-    M5 --> M6
+    M6 --- M5
+    M5 --- M4A & M4B & M4C & M4D & M4E
+    M4A & M4B & M4C & M4D & M4E --- M3
+    M3 --- M2 --- M1 --- M0
 
     style M0 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
     style M1 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
@@ -60,11 +84,13 @@ graph TD
     style M6 fill:#ede7f6,stroke:#4527a0,stroke-width:2px
 ```
 
+> **완성의 기준** — "모델을 많이 모았나"가 아니라 **"Layer 0의 가정에서 최전선 모델의 동작까지 끊김 없이 유도할 수 있나"**. 새 모델도 새 분야가 아니라 *기존 수학과 아키텍처가 만나는 한 칸*으로 들어갑니다.
+
 ---
 
 ## 📚 Projects & Studies
 
-<br/>
+### 🧮 Layer 0 — Mathematics &nbsp;<sub>모든 수식의 바닥</sub>
 
 <details>
 <summary>&nbsp;🧮 &nbsp;<b>Layer 0 — Mathematics</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/10_repos-e8f4f8?style=flat-square&color=1565c0"/></summary>
@@ -92,6 +118,8 @@ graph TD
 
 ---
 
+### 📐 Layer 1 — ML Theory &nbsp;<sub>학습과 일반화의 이론</sub>
+
 <details>
 <summary>&nbsp;📐 &nbsp;<b>Layer 1 — ML Theory</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/5_repos-e8f4f8?style=flat-square&color=7b1fa2"/></summary>
 
@@ -113,6 +141,8 @@ graph TD
 
 ---
 
+### 🧠 Layer 2 — Neural Network Theory &nbsp;<sub>신경망이 학습하는 이유</sub>
+
 <details>
 <summary>&nbsp;🧠 &nbsp;<b>Layer 2 — Neural Network Theory</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=ef6c00"/></summary>
 
@@ -132,6 +162,8 @@ graph TD
 </details>
 
 ---
+
+### 🏗️ Layer 3 — Architectures &nbsp;<sub>핵심 구조의 수학</sub>
 
 <details>
 <summary>&nbsp;🏗️ &nbsp;<b>Layer 3 — Architectures</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/5_repos-e8f4f8?style=flat-square&color=2e7d32"/></summary>
@@ -153,6 +185,8 @@ graph TD
 </details>
 
 ---
+
+### 🤖 Layer 4-A — Reinforcement Learning &nbsp;<sub>행동과 보상의 수학</sub>
 
 <details>
 <summary>&nbsp;🤖 &nbsp;<b>Layer 4-A — Reinforcement Learning</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/6_repos-e8f4f8?style=flat-square&color=c62828"/></summary>
@@ -176,6 +210,8 @@ graph TD
 
 ---
 
+### 🗣️ Layer 4-B — Large Language Models &nbsp;<sub>언어 모델의 학습과 정렬</sub>
+
 <details>
 <summary>&nbsp;🗣️ &nbsp;<b>Layer 4-B — Large Language Models</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=d81b60"/></summary>
 
@@ -195,6 +231,8 @@ graph TD
 </details>
 
 ---
+
+### 👁️ Layer 4-C — Computer Vision & 3D &nbsp;<sub>이미지와 공간의 수학</sub>
 
 <details>
 <summary>&nbsp;👁️ &nbsp;<b>Layer 4-C — Computer Vision & 3D</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=ad1457"/></summary>
@@ -216,6 +254,8 @@ graph TD
 
 ---
 
+### 📝 Layer 4-D — NLP &nbsp;<sub>언어를 표현하는 수학</sub>
+
 <details>
 <summary>&nbsp;📝 &nbsp;<b>Layer 4-D — NLP</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/2_repos-e8f4f8?style=flat-square&color=880e4f"/></summary>
 
@@ -234,6 +274,8 @@ graph TD
 
 ---
 
+### 🔊 Layer 4-E — Audio & Speech &nbsp;<sub>신호와 음성의 수학</sub>
+
 <details>
 <summary>&nbsp;🔊 &nbsp;<b>Layer 4-E — Audio & Speech</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/1_repo-e8f4f8?style=flat-square&color=6a1b9a"/></summary>
 
@@ -250,6 +292,8 @@ graph TD
 </details>
 
 ---
+
+### ⚙️ Layer 5 — Systems &nbsp;<sub>수학을 실행하는 시스템</sub>
 
 <details>
 <summary>&nbsp;⚙️ &nbsp;<b>Layer 5 — Systems</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/4_repos-e8f4f8?style=flat-square&color=f9a825"/></summary>
@@ -271,6 +315,8 @@ graph TD
 
 ---
 
+### 🧭 Layer 6 — Frontier LLM &nbsp;<sub>추론·해석·검색의 최전선</sub>
+
 <details>
 <summary>&nbsp;🧭 &nbsp;<b>Layer 6 — Frontier LLM</b> &nbsp;&nbsp;<img src="https://img.shields.io/badge/3_repos-e8f4f8?style=flat-square&color=4527a0"/></summary>
 
@@ -289,7 +335,7 @@ graph TD
 </details>
 
 <br/>
-<sub>💡 Layer 0 → Layer 6 순서로 선행 지식이 쌓입니다. 각 레포는 독립적으로도 학습 가능합니다.</sub>
+<sub>💡 Layer 0 → Layer 6 순서로 선행 지식이 쌓입니다. 각 레포는 독립적으로도 학습 가능합니다. (총 48 repos)</sub>
 
 <br/>
 
@@ -320,6 +366,20 @@ graph LR
 
 <br/>
 
+## 📐 Document Format — Principle → Boundary → Proof
+
+이 연구소의 모든 글은 세 단으로 끝납니다.
+
+| 단 | 내용 |
+|:--:|------|
+| 🧩 **Principle** | 출발점 — *어떤 정의와 가정에서 이 수식이 시작되나* |
+| 🔬 **Boundary** | 경계 — *가정이 무너지면 결론은 어디까지 달라지나* |
+| ✏️ **Proof** | 증명 — *한 줄씩 어떻게 유도되며, 구현과 수치 실험이 이를 재현하나* |
+
+<sub>본문 10섹션 템플릿: 🎯 질문 · 🧱 선행 정의·가정 · 🔍 직관 · 📐 수식화 · ✏️ 유도·증명 · 🔬 경계·반례 · 🔗 개념 연결 · 💻 NumPy 구현 · 🧪 수치 검증 · 🤔 다음 질문</sub>
+
+<br/>
+
 ## 💡 Philosophy
 
 <div align="center">
@@ -328,12 +388,13 @@ graph LR
 
 </div>
 
-### Why Math-First Deep Dive?
+### Why Episteme?
 
 - ✏️ **증명 가능한 이해** - 블랙박스 없이, 가정부터 결론까지 직접 유도
 - 🔍 **한계 식별** - 수식의 가정이 무너지는 조건을 정확히 파악
 - 🔗 **개념 연결** - 서로 다른 알고리즘이 같은 수학적 뿌리에서 나옴을 발견
 - 💻 **구현 신뢰** - 수식을 코드로 직접 옮기며 이론과 실제를 연결
+- 🚫 **의도적 배제** - 공식 암기와 프레임워크 사용법 나열은 다루지 않음. 가정 없는 수식과 검증 없는 직관은 소음이다
 
 <br/>
 
@@ -345,8 +406,13 @@ graph LR
 
 <br/>
 
-정제된 결과물은 [**IQ Lab Blog**](https://iq-proof.github.io)에 발행됩니다.  
-정리(Theorem)와 증명(Proof)으로 구성된 딥다이브 글을 만날 수 있어요.
+**The IQ Knowledge Pentad**
+
+📐 **IQ AI Lab** — *Episteme* &nbsp;·&nbsp; [🔧 IQ Dev Lab](https://github.com/iq-dev-lab) — *Techne* &nbsp;·&nbsp; [🧭 IQ Phronesis Lab](https://github.com/iq-phronesis-lab) — *Phronesis* &nbsp;·&nbsp; [🌌 IQ Physis Lab](https://github.com/iq-physis-lab) — *Sophia* &nbsp;·&nbsp; [🧠 IQ Psyche Lab](https://github.com/iq-psyche-lab) — *Psyche*
+
+<br/>
+
+[🌀 **IQ Spiral Galaxy**](https://github.com/iq-spiral-galaxy) — [🔴 Red · AI](https://github.com/iq-spiral-galaxy/spiral-buddy-red) &nbsp;·&nbsp; [🟢 Green · Phronesis](https://github.com/iq-spiral-galaxy/spiral-buddy-green) &nbsp;·&nbsp; [🔵 Blue · Dev](https://github.com/iq-spiral-galaxy/spiral-buddy-blue) &nbsp;·&nbsp; [⚫ Black · Physis](https://github.com/iq-spiral-galaxy/spiral-buddy-black) &nbsp;·&nbsp; [⚪ White · Psyche](https://github.com/iq-spiral-galaxy/spiral-buddy-white)
 
 <br/>
 
